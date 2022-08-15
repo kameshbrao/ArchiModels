@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T05:08:15.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="la6VrZrIiOn-v9OFXWkj" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T05:09:37.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PKKmwHBGe6bRjtPKrHp6" version="20.2.2" type="github">
   <diagram id="C7R-PiZP83bE1cAfyuAC" name="Page-1">
-    <mxGraphModel dx="690" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="513" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1003,16 +1003,17 @@
         <mxCell id="4iS4Tf2D2NXeeIJQhD0L-142" value="storage.dna.app.corpintra.net" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="564" y="251" width="35" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="o8ckj9ShGIf8HggRzjNY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#99FFFF;entryPerimeter=0;" edge="1" parent="1" target="4iS4Tf2D2NXeeIJQhD0L-38">
+        <mxCell id="o8ckj9ShGIf8HggRzjNY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.104;entryY=0.969;entryDx=0;entryDy=0;strokeColor=#99FFFF;entryPerimeter=0;" edge="1" parent="1" source="4iS4Tf2D2NXeeIJQhD0L-30" target="4iS4Tf2D2NXeeIJQhD0L-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="774" y="91" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="774" y="281" />
+              <mxPoint x="943" y="220" />
+              <mxPoint x="857" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o8ckj9ShGIf8HggRzjNY-2" value="serving.dna.app.corpintra.net" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="735.75" y="280" width="35" height="18" as="geometry" />
+          <mxGeometry x="874" y="206" width="35" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
