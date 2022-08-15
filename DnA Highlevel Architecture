@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T04:50:27.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3YDENVhSH52qQVMu8EVO" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T04:53:20.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fTjl5fYAqYsmZDIW5DuS" version="20.2.2" type="github">
   <diagram id="C7R-PiZP83bE1cAfyuAC" name="Page-1">
-    <mxGraphModel dx="1667" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1176" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,6 +980,28 @@
         </mxCell>
         <mxCell id="4iS4Tf2D2NXeeIJQhD0L-127" value="Malware User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;dashed=1;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="4iS4Tf2D2NXeeIJQhD0L-138">
           <mxGeometry width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4iS4Tf2D2NXeeIJQhD0L-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=7;strokeColor=#99FFFF;" edge="1" parent="1" source="48JxgiSFWJLqzXx-glQz-68" target="RHMQABD0Cjomn95jogaM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="774" y="244" />
+              <mxPoint x="304" y="244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iS4Tf2D2NXeeIJQhD0L-140" value="dna.app.corpintra.net" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="224" width="35" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4iS4Tf2D2NXeeIJQhD0L-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=7;strokeColor=#99FFFF;" edge="1" parent="1" source="48JxgiSFWJLqzXx-glQz-68" target="48JxgiSFWJLqzXx-glQz-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="774" y="271" />
+              <mxPoint x="453" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iS4Tf2D2NXeeIJQhD0L-142" value="storage.dna.app.corpintra.net" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="564" y="251" width="35" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
