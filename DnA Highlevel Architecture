@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T04:15:46.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0GTTchG-8RfjbZznOWXp" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T04:17:57.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7LSis0mzxMsJZCdZnfnX" version="20.2.2" type="github">
   <diagram id="C7R-PiZP83bE1cAfyuAC" name="Page-1">
-    <mxGraphModel dx="1076" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="2420" dy="1135" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1176,26 +1176,15 @@
         <mxCell id="o8ckj9ShGIf8HggRzjNY-34" value="&lt;b style=&quot;font-size: 25px;&quot;&gt;DnA High Level Architecture&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="66" y="31" width="375" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o8ckj9ShGIf8HggRzjNY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;fontColor=#000000;strokeColor=#B5739D;startArrow=none;" edge="1" parent="1" source="o8ckj9ShGIf8HggRzjNY-37" target="4iS4Tf2D2NXeeIJQhD0L-89">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1172" y="567" />
-              <mxPoint x="774" y="567" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="o8ckj9ShGIf8HggRzjNY-37" value="trino.dna.app.corpintra.net" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="307" width="35" height="18" as="geometry" />
+          <mxGeometry x="1185" y="96" width="35" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="o8ckj9ShGIf8HggRzjNY-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;fontColor=#000000;strokeColor=#B5739D;endArrow=none;" edge="1" parent="1" source="4iS4Tf2D2NXeeIJQhD0L-30" target="o8ckj9ShGIf8HggRzjNY-37">
+        <mxCell id="o8ckj9ShGIf8HggRzjNY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.922;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;fontColor=#000000;strokeColor=#B5739D;" edge="1" parent="1" source="4iS4Tf2D2NXeeIJQhD0L-30" target="4iS4Tf2D2NXeeIJQhD0L-89">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="950.5" y="96" as="sourcePoint" />
-            <mxPoint x="769" y="636" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1163" y="96" />
-              <mxPoint x="1163" y="357" />
-              <mxPoint x="920" y="357" />
-              <mxPoint x="920" y="567" />
+              <mxPoint x="1258" y="96" />
+              <mxPoint x="1258" y="567" />
+              <mxPoint x="885" y="567" />
             </Array>
           </mxGeometry>
         </mxCell>
