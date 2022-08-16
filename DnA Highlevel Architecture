@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T04:14:05.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Orz5FjnnnmIPFGKvGqpS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T04:15:46.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0GTTchG-8RfjbZznOWXp" version="20.2.2" type="github">
   <diagram id="C7R-PiZP83bE1cAfyuAC" name="Page-1">
-    <mxGraphModel dx="1383" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,8 +136,8 @@
         <mxCell id="48JxgiSFWJLqzXx-glQz-88" value="" style="shape=datastore;whiteSpace=wrap;html=1;dashed=1;fontSize=8;strokeColor=#82b366;fillColor=#d5e8d4;" parent="48JxgiSFWJLqzXx-glQz-9" vertex="1">
           <mxGeometry x="50" y="-3" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="o8ckj9ShGIf8HggRzjNY-13" value="Schema based Isolation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="48JxgiSFWJLqzXx-glQz-9">
-          <mxGeometry x="38" y="39" width="43.5" height="18" as="geometry" />
+        <mxCell id="o8ckj9ShGIf8HggRzjNY-13" value="DB &lt;br&gt;Based Isolation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="48JxgiSFWJLqzXx-glQz-9">
+          <mxGeometry x="46.5" y="48" width="43.5" height="18" as="geometry" />
         </mxCell>
         <mxCell id="48JxgiSFWJLqzXx-glQz-10" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="261.5" y="395" width="70" height="60" as="geometry" />
