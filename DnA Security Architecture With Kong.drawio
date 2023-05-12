@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T13:06:00.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bcpKqs8U3OzkgkWBK3QY" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T13:14:04.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qIR5KJ6KUe_OYP2AG4DA" version="21.2.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2103" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2640" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
         <mxCell id="GwJlaA-RUiMvIkWrUPOA-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry x="40" y="451" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GwJlaA-RUiMvIkWrUPOA-16" value="Perform SSO Login" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="GwJlaA-RUiMvIkWrUPOA-15" parent="aM9ryv3xv72pqoxQDRHE-1">
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-16" value="Perform SSO Login" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;dashed=1;" edge="1" target="GwJlaA-RUiMvIkWrUPOA-15" parent="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry x="-1" y="-15" relative="1" as="geometry">
             <mxPoint x="45" y="431" as="sourcePoint" />
             <Array as="points">
@@ -233,7 +233,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwJlaA-RUiMvIkWrUPOA-10" value="Forward to browser for Authorization Code Flow and redirect uri /loginSuccess" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XsU5lfdXcksKyY_UCjnN-2" target="aM9ryv3xv72pqoxQDRHE-2">
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-10" value="Forward to browser for Authorization Code Flow and redirect uri /login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XsU5lfdXcksKyY_UCjnN-2" target="aM9ryv3xv72pqoxQDRHE-2">
           <mxGeometry x="-0.2323" relative="1" as="geometry">
             <mxPoint x="-50" y="510" as="sourcePoint" />
             <Array as="points">
@@ -250,6 +250,26 @@
               <mxPoint x="-535" y="490" />
             </Array>
             <mxPoint x="-600" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-17" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="GwJlaA-RUiMvIkWrUPOA-15" target="XsU5lfdXcksKyY_UCjnN-2">
+          <mxGeometry x="-0.2733" relative="1" as="geometry">
+            <mxPoint x="-640" y="620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="610" />
+              <mxPoint x="-570" y="600" />
+              <mxPoint x="-405" y="620" />
+              <mxPoint x="-460" y="460" />
+              <mxPoint x="-470" y="450" />
+              <mxPoint x="-590" y="510" />
+              <mxPoint x="-580" y="490" />
+              <mxPoint x="-595" y="470" />
+              <mxPoint x="-535" y="490" />
+              <mxPoint x="-175" y="510" />
+              <mxPoint x="-585" y="485" />
+            </Array>
+            <mxPoint x="-204" y="620" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
