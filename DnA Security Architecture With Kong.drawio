@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T14:17:21.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Rpin_p7B8ziw-WfU2awV" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T14:22:08.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="G-WF0zYDiTRroVjuh244" version="21.2.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2862" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,6 +59,18 @@
         </mxCell>
         <mxCell id="XsU5lfdXcksKyY_UCjnN-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="XsU5lfdXcksKyY_UCjnN-12" vertex="1">
           <mxGeometry x="45" y="550" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XsU5lfdXcksKyY_UCjnN-12">
+          <mxGeometry x="50" y="801" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-31" value="Reads JWT and sends as response header" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="GwJlaA-RUiMvIkWrUPOA-30" parent="XsU5lfdXcksKyY_UCjnN-12">
+          <mxGeometry x="-0.7888" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="781" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="811" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8DKK0phsEl0i5hMAirXq-7" value="Traefik" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-500" y="121" width="100" height="979" as="geometry" />
@@ -131,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GwJlaA-RUiMvIkWrUPOA-7" value="Send FE single page app code(JS, CSS &amp;amp; HTML)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2">
-          <mxGeometry x="-0.303" relative="1" as="geometry">
+          <mxGeometry x="-0.4821" relative="1" as="geometry">
             <mxPoint x="-260" y="340" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-360" y="340" />
@@ -197,8 +209,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwJlaA-RUiMvIkWrUPOA-17" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="GwJlaA-RUiMvIkWrUPOA-15" target="XsU5lfdXcksKyY_UCjnN-2">
-          <mxGeometry x="-0.2733" relative="1" as="geometry">
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-17" value="Return AccessToken" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="GwJlaA-RUiMvIkWrUPOA-15" target="XsU5lfdXcksKyY_UCjnN-2">
+          <mxGeometry x="-0.6671" relative="1" as="geometry">
             <mxPoint x="-640" y="620" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-470" y="610" />
@@ -261,8 +273,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwJlaA-RUiMvIkWrUPOA-26" value="Forward to upstream service" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="GwJlaA-RUiMvIkWrUPOA-4" target="XsU5lfdXcksKyY_UCjnN-16">
-          <mxGeometry x="-0.6865" relative="1" as="geometry">
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-26" value="Forward to upstream service which sends the JWT as header" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="GwJlaA-RUiMvIkWrUPOA-4" target="XsU5lfdXcksKyY_UCjnN-16">
+          <mxGeometry x="-0.5545" relative="1" as="geometry">
             <mxPoint x="-280" y="880" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-165" y="880" />
@@ -280,6 +292,8 @@
             <mxPoint x="296" y="930" as="sourcePoint" />
             <mxPoint x="-170" y="930" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="280" y="990" />
+              <mxPoint x="300" y="1000" />
               <mxPoint x="255" y="930" />
               <mxPoint x="80" y="700" />
               <mxPoint x="-40" y="690" />
