@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T08:16:20.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gKFo5PPrkXqKg1hEwGsF" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T08:19:43.081Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BaSkMXZpVDh2_p3OZrKR" version="21.2.9" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2421" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwJlaA-RUiMvIkWrUPOA-26" value="Forward to upstream service which sends the JWT as header" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="GwJlaA-RUiMvIkWrUPOA-4" target="XsU5lfdXcksKyY_UCjnN-16" edge="1">
+        <mxCell id="GwJlaA-RUiMvIkWrUPOA-26" value="Forward to upstream service which sends the JWT as header to /login" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="GwJlaA-RUiMvIkWrUPOA-4" target="XsU5lfdXcksKyY_UCjnN-16" edge="1">
           <mxGeometry x="-0.3894" relative="1" as="geometry">
             <mxPoint x="-80" y="867" as="sourcePoint" />
             <Array as="points">
@@ -451,8 +451,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nCGcjTqP9jQlaZfagkfL-39" value="Forward to upstream service which sends the JWT as header" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="nCGcjTqP9jQlaZfagkfL-29" target="nCGcjTqP9jQlaZfagkfL-15">
-          <mxGeometry x="-0.3509" relative="1" as="geometry">
+        <mxCell id="nCGcjTqP9jQlaZfagkfL-39" value="Forward to upstream service which sends the JWT as header to /refresh" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="nCGcjTqP9jQlaZfagkfL-29" target="nCGcjTqP9jQlaZfagkfL-15">
+          <mxGeometry x="-0.2105" relative="1" as="geometry">
             <mxPoint x="-80" y="1967" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="230" y="1840" />
@@ -465,7 +465,7 @@
               <mxPoint x="-215" y="2012" />
             </Array>
             <mxPoint x="236" y="1967" as="targetPoint" />
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nCGcjTqP9jQlaZfagkfL-40" value="Issue JWT" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="nCGcjTqP9jQlaZfagkfL-15" target="nCGcjTqP9jQlaZfagkfL-5">
